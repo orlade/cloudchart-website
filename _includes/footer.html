@@ -1,0 +1,42 @@
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h4>
+          <!-- <strong>{{ site.owner }}</strong> -->
+          <i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </h4>
+
+        {% if site.address %}
+        <p>
+          {% for address in site.address %}
+          {{ address.line }}<br>
+          {% endfor %}
+        </p>
+        {% endif %}
+
+        <ul class="list-inline">
+          {% if site.facebook_username %}
+          <li>
+            <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+          </li>
+          {% endif %}
+          {% if site.twitter_username %}
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+          </li>
+          {% endif %}
+          {% if site.github_username %}
+          <li>
+            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
+          </li>
+          {% endif %}
+        </ul>
+        <hr class="small">
+        {% if site.copyright %}
+        <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</footer>

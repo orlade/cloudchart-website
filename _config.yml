@@ -1,0 +1,26 @@
+# Site settings
+title: CloudChart
+email: hello@cloudchart.io
+description: "Beautiful AWS Infrastructure Visualisation &amp; Management"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.cloudchart.io" # the base hostname & protocol for your site
+logo: "/img/logo.png"
+
+# User setting
+owner: "Oliver Lade"
+email: "hello@cloudchart.io"
+facebook_username:
+twitter_username:
+github_username: "orlade"
+address:
+  - line:
+  - line:
+  # Feel free to add more lines here
+telephone:
+copyright: "Oliver Lade"
+
+# API settings
+google_api_key: UA-70487155-1
+
+# Build settings
+markdown: kramdown

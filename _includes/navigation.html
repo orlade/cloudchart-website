@@ -1,0 +1,38 @@
+<script>
+  function closeMenu() {
+    $('#menu-close').click();
+  }
+
+</script>
+
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+
+    <li class="sidebar-brand">
+      <a href="#top" onclick="closeMenu()">{{site.title}}</a>
+    </li>
+    <li>
+      <a href="#top" onclick="closeMenu()">Home</a>
+    </li>
+    <li>
+      <a href="#about" onclick="closeMenu()">About</a>
+    </li>
+    <li>
+      <a href="#features" onclick="closeMenu()">Features</a>
+    </li>
+    <!-- <li>
+      <a href="#portfolio" onclick="closeMenu()">Portfolio</a>
+    </li> -->
+    <li>
+      <a href="#footer" onclick="closeMenu()">Contact</a>
+    </li>
+    <li>
+      <a href="https://github.com/orlade/cloudchart" target="_blank" onclick="closeMenu()">GitHub</a>
+    </li>
+    <li>
+      <a href="https://orlade.gitbooks.io/aws/content/" target="_blank" onclick="closeMenu()">Book</a>
+    </li>
+  </ul>
+</nav>
