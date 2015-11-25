@@ -1,0 +1,12 @@
+# Paths are relative to site.baseurl.
+- src: img/ss-dashboard.png
+  alt: Screenshot of the CloudChart dashboard
+
+- src: img/ss-ec2.png
+  alt: Screenshot of CloudChart's EC2 visualisation
+
+- src: img/ss-s3.png
+  alt: Screenshot of CloudChart's S3 visualisation
+
+- src: img/ss-ecs.png
+  alt: Screenshot of CloudChart's ECS visualisation

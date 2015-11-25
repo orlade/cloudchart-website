@@ -9,14 +9,13 @@ logo: "/img/logo.png"
 # User setting
 owner: "Oliver Lade"
 email: "hello@cloudchart.io"
-facebook_username:
-twitter_username:
-github_username: "orlade"
-address:
-  - line:
-  - line:
-  # Feel free to add more lines here
-telephone:
+# facebook_username:
+# twitter_username:
+github_username: "orlade/cloudchart"
+# address:
+#   - line:
+#   - line:
+# telephone:
 copyright: "Oliver Lade"
 
 # API settings

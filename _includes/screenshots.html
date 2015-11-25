@@ -1,0 +1,25 @@
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h2>Gallery</h2>
+        <hr class="small">
+        <div class="row">
+          {% for item in site.data.gallery %}
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="{{ site.baseurl }}/{{item.src}}">
+                <img class="img-portfolio img-responsive" src="{{ site.baseurl }}/{{item.src}}" alt="{{item.alt}}"/>
+              </a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <!-- /.row (nested) -->
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
